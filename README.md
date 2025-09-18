@@ -5,11 +5,7 @@ Welcome to the **Customer Segmentation Project**, a group effort by six members 
 We focused on **Exploratory Data Analysis (EDA)**, **feature engineering**, and **machine learning** to understand customer behavior. Using **PCA** for dimensionality reduction and **KMeans** for clustering, we identified clear customer segments that can support smarter business strategies. 
 
 ### Live Demo
-Access our live project here: [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://p-2002-customer-segmentation-app-fgycxp.streamlit.app/)
-
-Or click here to open the live app:
-
-👉 [Customer Segmentation App](https://p-2002-customer-segmentation-app-fgycxp.streamlit.app/)
+Access our live project here: [Customer Segmentation App](https://p-2002-customer-segmentation-app-fgycxp.streamlit.app/)
 
 
 ---

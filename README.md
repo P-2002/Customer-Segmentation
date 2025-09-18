@@ -28,6 +28,7 @@ We focused on **Exploratory Data Analysis (EDA)**, **feature engineering**, and 
 cd P-2002
    
 Create a virtual environment:
+
 python -m venv venv
 source venv/bin/activate   # On Linux/Mac
 

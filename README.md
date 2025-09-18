@@ -126,4 +126,4 @@ This project was a collaborative effort involving countless hours of hard work, 
 The teamwork ensured the successful completion of a comprehensive customer segmentation system.
 
  Thank you for exploring our project!
-Feel free to check out the live website and share your feedback.
+Feel free to share your feedback.

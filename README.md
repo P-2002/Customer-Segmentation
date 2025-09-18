@@ -18,8 +18,11 @@ We focused on **Exploratory Data Analysis (EDA)**, **feature engineering**, and 
 
 - ###  Project Structure  
 ├── GROUP5PCA.ipynb # Main Jupyter Notebook (analysis + models)
+
 ├── app.py # Streamlit app for live demo
+
 ├── requirements.txt # Project dependencies
+
 └── README.md # Project documentation
 
 ###  Installation  
@@ -28,6 +31,7 @@ We focused on **Exploratory Data Analysis (EDA)**, **feature engineering**, and 
 cd Customer-Segmentation
    
 Create a virtual environment:
+
 On Windows:
 
 python -m venv venv
@@ -60,6 +64,7 @@ Evaluate results with silhouette score
 
 ### Run the Streamlit App
 streamlit run app.py
+
 This launches an interactive web app where you can:
 
 Upload your own CSV dataset

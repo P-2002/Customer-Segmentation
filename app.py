@@ -2,7 +2,13 @@ import streamlit as st
 import pickle
 import numpy as np
 
-# Load the KMeans model
+# Load scaler, PCA, and KMeans model
+with open("scaler.pkl", "rb") as file:
+    scaler = pickle.load(file)
+
+with open("pca.pkl", "rb") as file:
+    pca = pickle.load(file)
+
 with open("kmeans_model.pkl", "rb") as file:
     kmeans = pickle.load(file)
 
@@ -19,6 +25,9 @@ spending = st.number_input("Total_Spending", min_value=0.0, step=100.0, value=10
 # Predict button
 if st.button("Predict segment"):
     features = np.array([[income, spending]])
-    segment = kmeans.predict(features)[0]
-    
+    # Apply scaler and PCA before prediction
+    features_scaled = scaler.transform(features)
+    features_pca = pca.transform(features_scaled)
+    segment = kmeans.predict(features_pca)[0]
+
     st.success(f"Predicted Segment: {segment}")

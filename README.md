@@ -28,11 +28,16 @@ We focused on **Exploratory Data Analysis (EDA)**, **feature engineering**, and 
 cd Customer-Segmentation
    
 Create a virtual environment:
+On Windows:
 
 python -m venv venv
-source venv/bin/activate   # On Linux/Mac
+venv\Scripts\activate
 
-venv\\Scripts\\activate      # On Windows
+On Linux/macOS:
+
+python3 -m venv venv
+source venv/bin/activate
+
 
 Install the dependencies:
 pip install -r requirements.txt

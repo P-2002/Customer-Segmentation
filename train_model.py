@@ -1,0 +1,18 @@
+
+import pandas as pd
+from sklearn.cluster import KMeans
+import pickle
+
+# Sample training data
+data = pd.DataFrame({
+    "Income": [30000, 40000, 50000, 60000, 70000, 80000],
+    "Total_Spending": [500, 700, 1000, 1500, 2000, 2500]
+})
+
+# Train the model
+model = KMeans(n_clusters=3, random_state=42)
+model.fit(data)
+
+# Save the model
+with open("kmeans_model.pkl", "wb") as f:
+    pickle.dump(model, f)

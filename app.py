@@ -16,7 +16,7 @@ with open("kmeans_model.pkl", "rb") as f:
 st.set_page_config(page_title="Customer Segmentation", layout="centered", page_icon=":bar_chart:")
 st.title("Customer Segmentation — KMeans Predictor")
 
-st.markdown("Enter the feature values below. The form matches your training features exactly.")
+st.markdown("Enter the feature values below. The form is built from your feature.json, so it matches training exactly.")
 
 income = st.number_input("Income", min_value=0.0, step=1000.0, value=50000.0, format="%.2f")
 spending = st.number_input("Total_Spending", min_value=0.0, step=100.0, value=1000.0, format="%.2f")

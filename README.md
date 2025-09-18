@@ -30,6 +30,7 @@ cd P-2002
 Create a virtual environment:
 python -m venv venv
 source venv/bin/activate   # On Linux/Mac
+
 venv\\Scripts\\activate      # On Windows
 
 Install the dependencies:

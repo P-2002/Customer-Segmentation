@@ -12,7 +12,8 @@ We focused on **Exploratory Data Analysis (EDA)**, **feature engineering**, and 
 - Pandas  
 - Matplotlib & Seaborn  
 - SciPy  
-- Scikit-learn   
+- Scikit-learn
+- joblib  
 - Streamlit (for live app)
 
 - ###  Project Structure  

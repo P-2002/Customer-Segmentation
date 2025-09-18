@@ -24,8 +24,8 @@ We focused on **Exploratory Data Analysis (EDA)**, **feature engineering**, and 
 
 ###  Installation  
 1. Clone this repository:  
-   git clone https://github.com/PrasannaChouhan/P-2002.git 
-
+  git clone https://github.com/PrasannaChouhan/P-2002.git
+cd P-2002
    
 Create a virtual environment:
 

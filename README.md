@@ -16,6 +16,8 @@ We focused on **Exploratory Data Analysis (EDA)**, **feature engineering**, and 
 - joblib  
 - Streamlit (for live app)
 
+---
+
 - ###  Project Structure  
 ├── GROUP5PCA.ipynb # Main Jupyter Notebook (analysis + models)
 
@@ -24,6 +26,8 @@ We focused on **Exploratory Data Analysis (EDA)**, **feature engineering**, and 
 ├── requirements.txt # Project dependencies
 
 └── README.md # Project documentation
+
+---
 
 ###  Installation  
 1. Clone this repository:  
@@ -46,6 +50,8 @@ source venv/bin/activate
 Install the dependencies:
 pip install -r requirements.txt
 
+---
+
 ### Usage
 Run the Notebook
 jupyter notebook GROUP5PCA.ipynb
@@ -61,6 +67,8 @@ Reduce dimensions with PCA
 Segment customers using KMeans clustering
 
 Evaluate results with silhouette score
+
+---
 
 ### Run the Streamlit App
 streamlit run app.py
@@ -79,6 +87,8 @@ Check silhouette score
 
 Download clustered results as CSV
 
+---
+
 ### Live Deployment
 You can deploy the app for free using Streamlit Community Cloud:
 
@@ -91,6 +101,8 @@ Connect your GitHub, select the repo, and deploy.
 
 Your app will be live and shareable with a link.
 
+---
+
 ### Results
 
 Dimensionality reduction improved clarity in visualization
@@ -101,8 +113,12 @@ Clusters evaluated using silhouette score
 
 Insights generated for targeted business strategies
 
+---
+
 ### Contributors
 This project was developed as a Group Project of six members during our internship at AIVariant. It reflects the combined effort, dedication, and teamwork of the entire group.
+
+---
 
 ### Closing Note
 

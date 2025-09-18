@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 
 st.set_page_config(page_title="Customer Segmentation", layout="wide")
 
-st.title("Customer Segmentation — PCA + KMeans")
+st.title("Customer Segmentation")
 st.markdown("Upload a CSV of your customer data, select numeric features, then run PCA + KMeans to visualize clusters.")
 
 uploaded = st.file_uploader("Upload CSV", type=["csv"])

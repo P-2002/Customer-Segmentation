@@ -129,4 +129,4 @@ This project was developed as a Group Project of six members during our internsh
 This project was a collaborative effort involving countless hours of hard work, brainstorming, and analysis.
 The teamwork ensured the successful completion of a comprehensive customer segmentation system.
 
-Thank you for exploring our project! Feel free to check out the live Demo and share your feedback.
+Thank you for exploring our project! Feel free to check out the live demo and share your feedback.
